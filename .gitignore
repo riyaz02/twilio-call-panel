@@ -1,10 +1,24 @@
-venv/
-__pycache__/
+# Configs with credentials
+/config/twilio_config.cfg
+/config/application.properties
+/config/logging.conf
+
+# Render deployment config
+/render.yaml
+
+# Runtime logs and folders
+/logs/
 *.log
+
+# Uploaded files
+/uploads/
+
+# Python bytecode and envs
+__pycache__/
 *.pyc
-uploads/
-logs/
+venv/
 .env
-twilio_config.cfg
-application.properties
-logging.conf
+
+# OS files (optional, good practice)
+.DS_Store
+Thumbs.db
